@@ -52,8 +52,7 @@ exports.up = function (knex) {
                 .inTable('resources')
                 .onDelete('CASCADE')
                 .onUpdate('CASCADE');
-        })
-        ;
+        });
 };
 
 exports.down = function (knex) {
